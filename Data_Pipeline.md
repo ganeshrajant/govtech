@@ -7,7 +7,7 @@
     - Once the Price field is string, we strip the prefix with zeros and store it in a new Price column
 
 ## Delete any rows which do not have a name
-    - We used pandas dropna() method for the column "name" using the subset parameter
+    - Used pandas dropna() method for the column "name" using the subset parameter
 
 ## Create a new field named above_100, which is true if the price is strictly greater than 100
     - First we checked whether the data types of price field is float or not
